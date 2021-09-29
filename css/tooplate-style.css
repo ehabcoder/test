@@ -12,6 +12,7 @@ https://www.tooplate.com/view/2115-marvel
 body {
   font-family: "Maven", sans-serif;
   padding-top: 70px;
+  line-height: 1.6;
 }
 
 .full-screen {
@@ -361,6 +362,14 @@ strong {
   display: none;
 }
 
+.list-added a {
+  color: #000;
+  font-size: 20px;
+}
+.list-added:hover {
+  cursor: pointer;
+  background-color: gray;
+}
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
